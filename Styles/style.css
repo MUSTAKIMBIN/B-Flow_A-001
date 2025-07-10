@@ -2,3 +2,52 @@
 .raleway {
   font-family: "Raleway", sans-serif;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Shared style */
+.primary_color {
+  color: #4e47ff;
+}
+.btn_style {
+  color: whitesmoke;
+  background-color: #4e47ff;
+  border-radius: 5px;
+  padding: 8px 20px;
+  border: none;
+  transition-duration: 1.5s;
+}
+button:hover {
+  scale: 1.2;
+  background-color: #7c44d8;
+}
+
+/* header section */
+header {
+  background-image: url("../assets/Hero-bg.png");
+  height: 70vh;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+nav h1 {
+  color: #4e47ff;
+  font-weight: 800;
+  font-size: 1.7rem;
+}
+.hero-div {
+  text-align: center;
+  padding-top: 20px;
+}
+.hero-div h4 {
+  font-size: 2.5rem;
+  color: #252432;
+  margin-bottom: 20px;
+}
