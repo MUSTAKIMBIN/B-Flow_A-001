@@ -20,8 +20,10 @@
   transition-duration: 1.5s;
 }
 button:hover {
-  scale: 1.2;
+  scale: 1.18;
   background-color: #7c44d8;
+  border-color: #0ff;
+  box-shadow: 0 0 10px #4e47ff, 0 0 15px #4e47ff, 0 0 25px #4e47ff;
 }
 
 /* header section */
@@ -50,4 +52,30 @@ nav h1 {
   font-size: 2.5rem;
   color: #252432;
   margin-bottom: 20px;
+}
+
+/* See It in Action */
+.action {
+  width: 80%;
+  margin: 80px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.action div h4 {
+  color: #252432;
+  font-size: 1.5rem;
+}
+.action div p {
+  color: gray;
+  font-size: small;
+  font-weight: 500;
+  margin: 15px 0;
+}
+.img-div {
+  text-align: end;
+}
+.img {
+  width: 50%;
+  border-radius: 10px;
 }
