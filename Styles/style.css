@@ -217,11 +217,29 @@ footer div a {
 /* focus section */
 .focus {
   width: 80%;
-  margin: 0 auto;
+  height: 70vh;
+  margin: 0 auto 80px;
   padding: 20px;
   background-color: white;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.focus h3 {
+  color: #252432;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 15px 0;
+}
+.focus p {
+  color: gray;
+  font-size: small;
+  font-weight: 500;
+  padding: 10px 0 20px 0;
+}
+.focus img {
+  border-radius: 60px;
+  padding: 20px;
+  width: 70%;
 }
