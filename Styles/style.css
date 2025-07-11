@@ -108,3 +108,27 @@ nav h1 {
   color: gray;
   padding: 5px 0;
 }
+/* Footer section */
+footer {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer h1 {
+  color: #4e47ff;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+footer p {
+  color: gray;
+  font-size: small;
+  padding: 20px;
+  text-align: center;
+}
+footer div a {
+  text-decoration: none;
+  color: gray;
+  font-size: small;
+  margin: 0 10px;
+}
