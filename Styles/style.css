@@ -213,3 +213,15 @@ footer div a {
   font-size: medium;
   color: #252432;
 }
+
+/* focus section */
+.focus {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
