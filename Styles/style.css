@@ -79,3 +79,32 @@ nav h1 {
   width: 50%;
   border-radius: 10px;
 }
+
+/* Productive Users */
+.productive {
+  background-color: #e5e7ff;
+  width: 80%;
+  margin: 80px auto;
+  border-radius: 5px;
+}
+.productive-title {
+  color: #252432;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 25px 0;
+}
+.productive-div {
+  justify-content: space-around;
+  display: flex;
+  padding: 20px 0;
+}
+.ph4 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #4e47ff;
+}
+.pro-p {
+  font-size: small;
+  color: gray;
+  padding: 5px 0;
+}
