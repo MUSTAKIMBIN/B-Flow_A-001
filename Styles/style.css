@@ -114,6 +114,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: white;
+  padding-top: 80px;
 }
 footer h1 {
   color: #4e47ff;
@@ -174,4 +176,34 @@ footer div a {
 .reviewar img {
   border-radius: 50%;
   height: 50%;
+}
+/* form section */
+.form {
+  width: 80%;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form h3 {
+  font-size: 4rem;
+}
+.form input {
+  display: flex;
+  margin: 10px 0;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 5px;
+}
+.form textarea {
+  display: flex;
+  padding: 15px 50px;
+  border: none;
+}
+.form label {
+  font-size: medium;
+  color: #252432;
+}
+.f-element {
+  display: flex;
 }
